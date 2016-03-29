@@ -24,8 +24,8 @@ var kittySchema = mongoose.Schema({
   cute: Boolean
 });
 
+// speak has been rewritten without the ternary operator tomfoolery
 kittySchema.methods.speak = function () {
-  // speak has been rewritten without the ternary operator tomfoolery
   // ?? What does `this` refer to inside kittySchema.methods.speak?
   // !! `this` is the particular kitten where the speak method was called
   console.log(this);
@@ -36,7 +36,7 @@ kittySchema.methods.speak = function () {
     greeting = "I don't have a name";
   }
   console.log(greeting);
-}
+};
 
 // ?? What is a model used for with Mongoose? How is it different from a schema?
 // !! The model actually lets us find data; the schema is just a blueprint or plan.
@@ -89,7 +89,7 @@ Kitten.find({name: 'fluffy'}, function (err, kittens) {
 });
 
 // ?? Make another call to Kitten.find, but filter down only kittens with your kitten's name!
-// finds only kittens named Cutey
+// !! finds only kittens named Cutey
 Kitten.find({name: 'Cutey'}, function (err, kittens) {
   if (err) return console.error(err);
   console.log('Here are all the kittens named Cutey!');

@@ -1,4 +1,4 @@
-# Object Mapping
+# Databases
 
 We're about to start working with a database! Yay!
 

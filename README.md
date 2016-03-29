@@ -21,6 +21,6 @@ We'll see a few different types of databases during WDI that store data in diffe
 1. Let's investigate the kitten stuff!  Some of the comments inside `gettingstarted.js` start with `// ??`.  Answer the questions in those comments, or make the code additions they suggest.  Use the following resources:
 
   * Read over [mongoose's quick start guide](http://mongoosejs.com/docs/).    
-  * Read the first few sections of Mongoose's [guide](http://mongoosejs.com/docs/guide.html), up through the section on creating a model. If you're super curious and have a few more minutes, read about creating instance methods with `someSchema.methods` and static methods with `someSchema.statics`. We don't recommend reading beyond there for now.
+  * Read the first few sections of Mongoose's [guide](http://mongoosejs.com/docs/guide.html), up through the section on creating a model. If you're curious and have a few more minutes, read about creating instance methods with `someSchema.methods` and static methods with `someSchema.statics`. We don't recommend reading beyond there for now.
 
 1. Add, commit and push your changes for this repo, then submit a pull request.

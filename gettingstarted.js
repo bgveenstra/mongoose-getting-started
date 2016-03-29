@@ -42,7 +42,7 @@ console.log("Here's a brand new kitten: ", fluffy);
 // speak was added to kittenSchema.methods, so here's how we call it:
 fluffy.speak(); // "Meow name is fluffy"
 
-// ?? Why do we need to save the new kitten? What happens if you comment this part out?
+// ?? Why do we need to save the new kitten? 
 fluffy.save(function (err, fluffy) {
   if (err) return console.error(err);
   console.log('You saved ' + fluffy.name + '! ', fluffy);
@@ -54,7 +54,7 @@ fluffy.save(function (err, fluffy) {
 // ?? Before you move on, run `gettingstarted.js` again. Does your new kitten show up on the list of all kittens?
 
 
-// ?? Save your new kitten. Does your new kitten show up on the list of all kittens now?
+// ?? Save your new kitten, and run `gettingstarted.js` again. Does your new kitten show up on the list of all kittens now?
 
 
 // find some kittens!
